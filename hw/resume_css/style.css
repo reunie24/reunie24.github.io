@@ -1,0 +1,10 @@
+a{
+  color: skyblue;
+  text-decoration: none;
+}
+a:hover{
+  font-weight: bold;
+}
+p{
+  font-family: monospace;
+}

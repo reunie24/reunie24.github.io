@@ -1,0 +1,27 @@
+body{
+  background-image: url('sea.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+a{
+  color:red;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  font-weight: bold;
+}
+p a{
+  color:yellow;
+}
+p{
+  font-family: sans-serif;
+  color: white;
+}
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: upper-alpha;
+}
