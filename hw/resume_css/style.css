@@ -8,3 +8,21 @@ a:hover{
 p{
   font-family: monospace;
 }
+.customlist{
+  color:skyblue;
+}
+#maintitle{
+  color: pink; font-family: 'Kalam', cursive;
+}
+.secondtitle{
+  color: goldenrod;font-family: "Kalam",cursive;
+}
+.text{
+  font-family: 'Arapey', serif;
+}
+body{
+  background: beige;
+}
+.border{
+  border-style: solid;
+}
