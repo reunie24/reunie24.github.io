@@ -23,6 +23,15 @@ p{
 body{
   background: beige;
 }
-.border{
-  border-style: solid;
+#border{
+  border-style: solid; border-color: black;
+}
+.firstcolumn{
+  font-style: italic;
+}
+#id{
+  line-height: 2.0;
+}
+.square{
+  list-style: square;
 }
