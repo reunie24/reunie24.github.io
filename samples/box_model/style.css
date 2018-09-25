@@ -1,0 +1,28 @@
+body{
+  margin: 0;padding: 0;
+}
+.wrapper{
+  display: block; background-color: #CCCCCC; width: 1000px;
+  min-height: 500px;margin-left: auto; margin-right: auto;
+}
+nav{
+  display: block; background: red;
+}
+.navlinks{
+  list-style-type: none;
+}
+.navlinks li{
+  display: inline-block;
+}
+.navlinks a{
+  text-decoration: none; color: white; display: inline-block; padding: 10px;
+}
+.left{
+  display: inline-block; background: white; width: 200px; min-height: 100px;
+  margin-left: 10px;
+  margin-bottom: 100px;
+}
+.right{
+  display: inline-block; width: 500px;
+  min-height: 100px; background: #333333; color: white;
+}
