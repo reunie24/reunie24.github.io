@@ -18,11 +18,18 @@ nav{
   text-decoration: none; color: white; display: inline-block; padding: 10px;
 }
 .left{
-  display: inline-block; background: white; width: 200px; min-height: 100px;
+  display: inline-block; background: white; width: 57%; min-height: 500px;
   margin-left: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 100px; vertical-align: top; margin: 20px; padding: 30px;
 }
 .right{
-  display: inline-block; width: 500px;
-  min-height: 100px; background: #333333; color: white;
+  display: inline-block; width: 20%;
+  min-height: 500px; background: #333333; color: white;
+  vertical-align: top; margin: 20px; padding: 30px; margin-left: 0px;
+}
+footer{
+  display: black;
+  background: black;
+  color: white;
+padding: 10px;
 }

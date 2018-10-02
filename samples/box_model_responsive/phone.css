@@ -12,7 +12,7 @@ nav{
   list-style-type: none;
 }
 .navlinks li{
-  display: inline-block; text-align: center;font-size: 36px;
+  display: block; text-align: center;font-size: 36px;
 }
 .navlinks a{
   text-decoration: none; padding: 10px;

@@ -1,0 +1,28 @@
+
+.wrapper{
+  background-color: #CCCCCC;
+}
+nav{
+   background: red;
+}
+.navlinks{
+  list-style-type: none;
+}
+.navlinks li{
+  display: inline-block;
+}
+.navlinks a{
+  color: white;
+}
+.left{
+   background: white;
+}
+.right{
+   background: #333333; color: white;
+
+}
+footer{
+  display: black;
+  background: black;
+  color: white;
+}
