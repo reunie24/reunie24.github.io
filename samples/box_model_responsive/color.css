@@ -1,0 +1,24 @@
+body{
+  margin: 0;padding: 0;
+}
+.wrapper{
+  background-color: #CCCCCC;
+}
+nav{
+  background: red;
+}
+.navlinks{
+  list-style-type: none;
+}
+.navlinks li{
+  display: inline-block;
+}
+.navlinks a{
+  text-decoration: none; color: white;
+}
+.left{
+  background: white;
+}
+.right{
+background: #333333; color: white;
+}

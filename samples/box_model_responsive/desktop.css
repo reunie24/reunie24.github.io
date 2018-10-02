@@ -1,0 +1,31 @@
+body{
+  margin: 0;padding: 0;
+}
+.wrapper{
+  display: block; width:100%;
+  min-height: 500px;max-width: 1080px; margin-left: auto; margin-right: auto;
+}
+nav{
+  display: block;
+}
+.navlinks{
+  list-style-type: none;
+}
+.navlinks li{
+  display: inline;
+}
+.navlinks a{
+  text-decoration: none; display: inline-block; padding: 10px;
+}
+.left{
+  display: inline-block;vertical-align: top; width: 20%;min-height: 500px;
+  margin-left: 10px; margin-bottom: 10px; margin: 20px;
+  padding: 30px;
+}
+.right{
+  display: inline-block; vertical-align: top; width: 59%; min-height: 500px; margin: 20px;
+  margin-left: 0px; padding: 30px;
+}
+footer{
+  display: block; padding: 10px;
+}

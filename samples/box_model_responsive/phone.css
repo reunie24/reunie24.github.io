@@ -1,0 +1,28 @@
+body{
+  margin: 0;padding: 0;
+}
+.wrapper{
+  display: block; width: 1000px;
+  min-height: 500px;margin-left: auto; margin-right: auto;
+}
+nav{
+  display: block;
+}
+.navlinks{
+  list-style-type: none;
+}
+.navlinks li{
+  display: inline-block; text-align: center;font-size: 36px;
+}
+.navlinks a{
+  text-decoration: none; padding: 10px;
+}
+.left, .right{
+  display: block; width: 100%;
+  margin: 20px;
+  padding: 30px;
+  box-sizing: content-box;
+}
+footer{
+  display: block;
+}
