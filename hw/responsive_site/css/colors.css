@@ -1,0 +1,15 @@
+body{
+  background: #FFC0CB;
+}
+header{
+  color:white;
+}
+a{
+  color: goldenrod; text-decoration: none;
+}
+a:hover{
+  font-weight: bold;
+}
+.left{
+
+}
