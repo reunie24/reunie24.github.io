@@ -23,6 +23,9 @@ nav{
   padding: 30px;
   box-sizing: border-box;
 }
+.grid{
+  border-style: solid; border-width: thick;
+}
 footer{
   display: block; padding: 30px;
 }

@@ -28,6 +28,9 @@ nav{
   display: inline-block; vertical-align: top; width: 79%; min-height: 500px;
  padding: 30px; box-sizing: border-box; height: 200%;
 }
+.grid{
+  border-style: solid; border-width: thick;
+}
 footer{
   display: block; padding: 10px;
 }

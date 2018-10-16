@@ -1,5 +1,5 @@
 body{
-  background-image: url(../images/birds.jpg);
+  background-image:url(../images/birds.jpg);
 }
 header{
   color:white;
@@ -11,5 +11,8 @@ a:hover{
   font-weight: bold;
 }
 .left{
-
+url(../images/birds.jpg);
+}
+.grid{
+  border: black;
 }
