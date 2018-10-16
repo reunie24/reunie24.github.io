@@ -2,7 +2,7 @@ body{
   background-image:url(../images/birds.jpg);
 }
 header{
-  color:white;
+  background-color: white;
 }
 a{
   color: goldenrod; text-decoration: none;
@@ -10,9 +10,14 @@ a{
 a:hover{
   font-weight: bold;
 }
-.left{
-url(../images/birds.jpg);
-}
+
 .grid{
-  border: black;
+  border: white;
+}
+nav{
+  background-color: white;
+}
+ul li{
+  list-style-type: none
+  display: inline;
 }
