@@ -27,17 +27,17 @@ ul{
 ul li{
   width: 100%;
   display: block;
-  height: 60px:
-  border:px solid red;
+  height: 60px;
+  border: solid;
 }
 .left, .right{
-  display:inline block; width: 100%;
+  display:inline-block; width: 100%;
   padding: 30px;
   box-sizing: border-box;
 }
 .grid{
-  border-style: solid; border-width: thick; box-sizing: content-box;
-  display: inline-block; width: 500px;
+  border-style: solid; border-width: thick; box-sizing: border-box;
+  display: inline-block;
 }
 footer{
   display: block; padding: 30px;

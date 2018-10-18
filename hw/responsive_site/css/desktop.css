@@ -12,7 +12,7 @@ header{
   height: 30px;
 }
 nav{
-  display: block; align-self: right;
+  display: block;
 }
 .navlinks{
   list-style-type: none;
