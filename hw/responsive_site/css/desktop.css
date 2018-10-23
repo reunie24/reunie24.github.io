@@ -39,5 +39,5 @@ nav ul li {
   border-style: solid; border-width: thick; width: 500%;
 }
 footer{
-  display: block; padding: 10px;
+  display: block; padding: 10px; text-align:center; 
 }
