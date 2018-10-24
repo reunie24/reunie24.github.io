@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery 1</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <style>
+    .redtext{ color: red;}
+  .bluetext {color: blue;}
+  </style>
+  </head>
+  <body>
+    <h1 id="pagetitle">Blue</h1>
+<button class="action">click for red</button>
+<button class="actionblue">Click for Blue</button>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- this is where we put our jquery functions-->
+    <script>
+      $(function(){
+        //alert('jquery has loaded');
+        console.log('welcome to the console');
+      //$('body').html('<p> My name is Seth </p>')
+      });
+      $('.action').on('click', function(){
+        $('body').//append('<p> My name is Seth </p>')
+        $('#pagetitle').addClass('.redtext');
+        $('#pagetitle').removeClass('.bluetext');
+      });
+      $('.actionblue').on('click', function(){
+        $('body').//append('<p> My name is Seth </p>')
+        $('#pagetitle').removeClass('.redtext');
+        $('#pagetitle').addClass('.bluetext');
+      });
+    </script>
+  </body>
+</html>

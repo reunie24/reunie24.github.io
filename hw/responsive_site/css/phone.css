@@ -16,11 +16,17 @@ nav{
   list-style-type: none;
 }
 .navlinks li{
-  display: block; text-align: center;font-size: 36px;
+  display: block; text-align: center;font-size: 36px; border-color: gold; border-style: dashed; border-radius: 10px;
 }
 .navlinks a{
   text-decoration: none; padding: 10px;
 }
+.navlinks ul li{
+width: 620px;
+margin-left: -20px;
+text-align: center;
+}
+
 ul{
   width:100%;
 }
@@ -36,8 +42,11 @@ ul li{
   box-sizing: border-box;
 }
 .grid{
-  border-style: solid; border-width: thick; box-sizing: border-box;
+  border-style: solid; border-width: thick; box-sizing: content-box;
   display: inline-block;
+}
+.grid ul li{
+  height: 300px; border-style: none;
 }
 footer{
   display: block; padding: 30px;

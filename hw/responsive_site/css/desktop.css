@@ -36,8 +36,13 @@ nav ul li {
  padding: 30px; box-sizing: border-box; height: 50%;
 }
 .grid{
-  border-style: solid; border-width: thick; width: 500%;
+  border-style: solid; border-width: thick; width: 100%;
+  box-sizing: content-box;
+}
+.grid ul {
+  padding: 40px;
+  margin: 0;
 }
 footer{
-  display: block; padding: 10px; text-align:center; 
+  display: block; padding: 10px; text-align:center;
 }
