@@ -8,9 +8,14 @@ body{
   color: white;
 }
 h1{
-  text-align: center; color: white; font-weight: 900;
+  text-align: center; color: white; font-weight: 900; text-decoration: underline;
 }
-
+header{
+  color: white;
+  text-align: center;
+  font-size: 26;
+  font-weight: bold;
+}
 
 .intro{
   display: inline-block;
