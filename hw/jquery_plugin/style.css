@@ -4,11 +4,26 @@ body{
   background-repeat: no-repeat;
   background-position: center;
 }
+a{
+  text-decoration: none; color: white;
+}
+a:hover{
+  color: red; font-weight: bold;
+}
+.intro ul li{
+  display: inline-block;
+}
+.intro ul li a{
+  display: inline-block;
+}
 .intro p{
   color: white;
 }
 h1{
   text-align: center; color: white; font-weight: 900; text-decoration: underline;
+}
+hr{
+  border: 1px; border: dashed; color: white;
 }
 header{
   color: white;
@@ -16,7 +31,11 @@ header{
   font-size: 26;
   font-weight: bold;
 }
-
+.wrapper{
+  display: block; width:100%;
+  min-height: 500px;max-width: 1080px; margin-left: auto; margin-right: auto; box-sizing: border-box;
+  border-style: dashed; border-width: thick; color: white;
+}
 .intro{
   display: inline-block;
   width: 100%;
