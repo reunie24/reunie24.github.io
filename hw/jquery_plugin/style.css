@@ -17,7 +17,7 @@ a:hover{
   display: inline-block;
 }
 .intro p{
-  color: white; padding-left: 20px; 
+  color: white; padding-left: 20px;
 }
 h1{
   text-align: center; color: white; font-weight: 900; text-decoration: underline;
@@ -25,11 +25,12 @@ h1{
 hr{
   border: 1px; border: dashed; color: white;
 }
-h2{
+.wrapper h2{
   color: white;
   text-align: center;
 }
-h4{
+
+.intro h4{
   text-align: center;
 }
 .wrapper{
